@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org/clutch-wallet-lib
+description: >-
+  First-party Clutch Wallet client library published under the clutch-wallet
+  GitHub organization (github.com/clutch-wallet). Verified against the public
+  npm registry via https://registry.npmjs.org (the npm.com front-end returns
+  403 to automated clients). Clutch Wallet is a defunct/permanently-closed web3
+  wallet startup; this package is a historical, low-activity release (0.1.0,
+  last published 2023-07-17) and no other first-party packages were found on
+  PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, or crates.io.
+packages:
+  - language: javascript
+    registry: npm
+    name: clutch-wallet-lib
+    url: https://www.npmjs.com/package/clutch-wallet-lib
+    source: https://github.com/clutch-wallet/clutch-wallet-lib
+    install: npm install clutch-wallet-lib
+    version: 0.1.0
+    license: ISC
+    published: '2023-07-17'
+    official: true
+    note: >-
+      "Clutch browser extension blockchain lib" per its npm README; published
+      under the clutch-wallet org. Minimal/placeholder release; the referenced
+      GitHub repo is no longer publicly resolvable.

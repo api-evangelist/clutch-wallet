@@ -1,22 +1,70 @@
 aid: clutch-wallet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clutch-wallet.png
 name: Clutch Wallet
-description: Clutch Wallet is a company surfaced as a portfolio company of anthemis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clutch Wallet was a Los Angeles-based web3 startup building a non-custodial
+  "social wallet" and web3 toolkit — a seedless browser extension and mobile
+  wallet (leaning on account abstraction and seamless sign-in) paired with a
+  dApp offering token search, three-click DeFi, a web3 social profile, a
+  personalized crypto media feed, aggregated multi-wallet balances in a single
+  dashboard, integrated crypto education, and community tools. Founded by Bec
+  Jones (CEO), James Kouzinas (CFO/COO), and Sheela Vats (CTO), it raised ~$800K
+  backed by Anthemis (Female Innovators Lab Fund), Emmeline Ventures, Everywhere
+  Ventures, and Rogue Women. The company is now permanently closed: its
+  clutchwallet.xyz domain is parked and it exposed no public production API. It
+  remains in the API Evangelist network as a portfolio-lead profile; its
+  clutch-wallet GitHub organization (mostly forks of Zerion, Argent, and
+  MetaMask projects) and one first-party npm library survive as artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/clutch-wallet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
+- emmeline-ventures
+- everywhere-ventures
+- rogue-women
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: closed
+x-status-note: Permanently closed; clutchwallet.xyz parked (Hostinger dns-parking, 2.57.91.91).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Web3
+- Cryptocurrency
+- Wallet
+- DeFi
+- Blockchain
+- Fintech
+- Non-custodial
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/clutch-wallet
+- type: Packages
+  url: packages/clutch-wallet-packages.yml
+- type: SDKs
+  url: packages/clutch-wallet-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
